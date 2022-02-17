@@ -60,7 +60,7 @@ def rescale_lap(l):
     return sl
     
 
-if name == "__main__":
+if __name__ == "__main__":
     l =laplacian(s)
     print(s)
 
